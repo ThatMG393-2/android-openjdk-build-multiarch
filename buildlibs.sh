@@ -3,7 +3,7 @@ set -e
 . setdevkitpath.sh
 cd freetype-$BUILD_FREETYPE_VERSION
 
-echo "Building Freetype"
+echo "Building Freetypeeeeeeeeeeeeeeee"
 
 if [[ "$BUILD_IOS" == "1" ]]; then
   LDFLAGS=-"arch arm64 -isysroot $thesysroot -miphoneos-version-min=12.0"
